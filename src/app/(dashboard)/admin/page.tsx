@@ -1,4 +1,3 @@
-import { AddBranch } from '@/components/client/branches/AddBranch';
 import AddEmployee from '@/components/client/company/AddEmployee';
 import { NewContract } from '@/components/client/company/NewContract';
 import Cards from '@/components/client/dashboard/Cards';

@@ -3,7 +3,6 @@
 import { LanguageList } from "@/components/client/language-list";
 import Login from "@/components/client/login";
 import Logo from "@/components/client/logo";
-import axios from "axios";
 
 export default async function Home() {
   return (
