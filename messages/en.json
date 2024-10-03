@@ -1,0 +1,203 @@
+{
+  "HomePage": {
+    "title": "Welcome To Batriq",
+    "CardDescription": "Please sign-in to your account and start the adventure",
+    "email_label": "  Email or Username",
+    "password_label": "Password",
+    "login_button": "Sign In",
+    "password_forgot": "Forgot Password?",
+    "Remember_label": "Remember Me",
+    "email_error": "Please enter a valid email address",
+    "password_error": "Please enter a valid password"
+  },
+  "sidebar": {
+    "Setup": "Setup",
+    "Main": "Main",
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "attendance": "Attendance",
+    "payroll": "Payroll",
+    "settings": "Setting",
+    "logout": "Logout",
+    "subList": {
+      "contracts": "Contracts",
+      "overtime": "Overtime",
+      "shifts_with_Working": "Shifts With Working",
+      "transaction": "Transaction",
+      "company": "Company",
+      "branches": "Branches",
+      "employee": "Employee",
+      "Department": "Department",
+      "setting": "Setting",
+      "attendance_rule": "Attendance Rule"
+    }
+  },
+  "navbar": {
+    "search_label": "Search Hear.."
+  },
+
+  "dashboard_page": {
+    "overview": "Overview",
+    "cards": {
+      "card1": {
+        "title": "Card 1"
+      }
+    }
+  },
+  "employees_page": {
+    "Employee_Info": "Employee Info",
+    "Insurance_Tax": "Insurance & Tax",
+    "Files_Links": "Files & Links",
+    "Employment_Rule": "Employment Rule",
+    "Default_Setting": "Default Setting",
+    "Notifications": "Notifications",
+    "NotificationsList": {
+      "Email": "Email",
+      "SMS": "SMS",
+      "Notification Area": "Notification Area",
+      "What’s App": "What’s App",
+      "alertsList": {
+        "Files": "Files",
+        "Attendance Daily": "Attendance Daily",
+        "Attendance Weekly": "Attendance Weekly",
+        "Salary Setup": "Salary Setup"
+      }
+    },
+    "Table": {
+      "ID": "ID",
+      "Image": "Image",
+      "Job Title": "Job Title",
+      "department": "Department",
+      "Email": "Email",
+      "Action": "Action",
+      "new Employee": "New Employee"
+    },
+    "tabs": {
+      "Basic_Info": "Basic Info",
+      "Files_Links": "Files & Links",
+      "Manager_Departments": "Manager & Departments",
+      "Shifts": "Shifts",
+      "Holidays_Contracts": "Holidays & Contracts",
+      "Attendance_Salary": "Attendance & Salary",
+      "Extra_Fields": "Extra Fields"
+    },
+    "Basic_Info": {
+      "Name Ar": "Name Ar",
+      "Secondary Phone ": "Secondary Phone ",
+      "Nationality": "Nationality",
+      "Residence": "Residence",
+      "Passport Number": "Passport Number",
+      "ID Number": "ID Number",
+      "Insurance Number": "Insurance Number"
+    },
+    "files": {
+      "min_title": "Files",
+      "Links": "Links",
+      "Facebook Link": "Facebook Link",
+      "Twitter Link": "Twitter Link",
+      "LinkedIn Link": "LinkedIn Link",
+      "Instagram Link": "Instagram Link",
+      "Behance Profile": "Behance Profile"
+    },
+    "Manager_Departments": {
+      "Manager_title": "Manager & Departments",
+      "Direct Manager": "Direct Manager",
+      "Sub Departments": "Sub Departments",
+      "Position & Branch": "Position & Branch",
+      "Position": "Position",
+      "Branch": "Branch"
+    },
+    "Shifts": {
+      "min_title": "Shifts",
+      "Employee Shifts": "Employee Shifts"
+    },
+    "Holidays": {
+      "Holidays": "Holidays",
+      "Available Balance": "Available Balance",
+      "Contracts": "Contracts",
+      "Days": "Days",
+      "Balance Info":"Balance Info"
+    }
+  },
+  "setting_page": {
+    "title": "Settings",
+    "Company Info": "Company Info",
+    "Company Code": "Company Code",
+    "Company Name": "Company Name",
+    "Language": "Language",
+    "Main Language": "Main Language",
+    "Edit Profile": "Edit Profile",
+    "Set main Language": "Set main Language",
+   " Main Language": "Main Language"
+  },
+  "EmployeeEditProfile":{
+    "title": "Edit Profile",
+    "Basic_Info": "Basic Info",
+    " English Name": " English Name",
+    " Arabic Name": " Arabic Name",
+    "phone": "Phone",
+    "secondary_Phone": "Secondary Phone",
+    "nationality": "Nationality",
+    "residence": "Residence",
+    "passport_Number": "Passport Number",
+    "id_Number": "ID Number",
+    "insurance_Number": "Insurance Number",
+    "Files_Links": "Files & Links",
+    "change_Image": "Change Image",
+    "Manager_Departments": "Manager & Departments",
+    "Direct Manager": "Direct Manager",
+    "Sub Departments": "Sub Departments",
+    "Position & Branch": "Position & Branch",
+    "Position": "Position",
+    "Branch": "Branch",
+    "Shifts": "Shifts",
+    "Holidays": "Holidays",
+    "Holidays_Contracts": "Holidays & Contracts",
+    "Attendance_Salary": "Attendance & Salary",
+    "Extra_Fields": "Extra Fields",
+    "Notifications": "Notifications",
+    "Upload your Resume": "Upload",
+    "Contract File": "Contract File",
+    "Insurance File": "Insurance File",
+    "LinkedIn File": "LinkedIn File",
+    "FaceBook File": "FaceBook File",
+    "Twitter File": "Twitter File",
+    "Upload your Insurance File": "Upload",
+    "Upload your LinkedIn File": "Upload",
+    "Upload your FaceBook File": "Upload",
+    "Upload your Twitter File": "Upload",
+    "Links": "Links"
+    
+  },
+  "Branches": {
+    "Branches": "Branches",
+    "New Branch": "New Branch",
+    "Branch Name": "Branch Name",
+    "Description": "Description",
+    "Status": "Status",
+    "Action": "Action",
+    "Create Branch": "Create Branch",
+    "Edit Branch": "Edit Branch",
+    "Delete Branch": "Delete Branch",
+    "Table": {
+      "Branch Name": "Branch Name",
+      "Country": "Country",
+      "City": "City",
+      "Action": "Action",
+      "code": "Code",
+      "Name": "Name",
+      "Contact Phone": "Contact Phone"
+    }
+  },
+  "DepartmentPage":{
+    "Department": "Department",
+    "Table":{
+      "id":"ID",
+      "Dep_Code":"Dep. Code",
+      "Name AR":"Name AR",
+      "Name EN":"Name EN",
+      "Action":"Action",
+      "Parent_Dep":"Parent Dep."
+    }
+  }
+}

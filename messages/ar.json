@@ -1,0 +1,33 @@
+{
+  "HomePage": {
+    "title": " مرحبا بيك ",
+    "CardDescription": "الرجاء تسجيل الدخول إلى حسابك وبدء المغامرة",
+    "email_label": "  البريد الإلكتروني أو اسم المستخدم",
+    "password_label": "كلمة المرور",
+    "login_button": "تسجيل الدخول",
+    "password_forgot": "نسيت كلمة المرور؟",
+    "Remember_label": "تذكرني",
+    "email_error": " يرجى إدخال عنوان بريد إلكتروني صالح",
+    "password_error": " يرجى إدخال كلمة مرور صالحة"
+  },
+  "employees_page": {
+    "Employee_Info": "Employee Info",
+    "Insurance_Tax": "Insurance & Tax",
+    "Files_Links": "Files & Links",
+    "Employment_Rule": "Employment Rule",
+    "Default_Setting": "Default Setting",
+    "Notifications": "Notifications",
+    "NotificationsList": {
+      "Email": "البريد الإلكتروني",
+      "SMS": "رسالة نصية",
+      "Notification Area": "منطقة الإشعارات",
+      "What’s App": "واتساب",
+      "alertsList": {
+        "Files": "ملفات",
+        "Attendance Daily": "الحضور اليومي",
+        "Attendance Weekly": "الحضور الأسبوعي",
+        "Salary Setup": "إعداد الرسوم"
+      }
+    }
+  }
+}
