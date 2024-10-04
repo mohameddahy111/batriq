@@ -199,5 +199,17 @@
       "Action":"Action",
       "Parent_Dep":"Parent Dep."
     }
+  },
+  "attendance_page":{
+    "title": "Attendance Shifts",
+    "Table":{
+      "code":"Code",
+      "Shift Name":"Shift Name",
+      "Working Hours":"Working Hours",
+      "Duration":"Duration",
+      "Action":"Action",
+      "Hours":"Hours"
+    }
   }
+  
 }

@@ -7,7 +7,7 @@ export interface IDepartmentPageProps {
 export default function DepartmentPage ({}: IDepartmentPageProps) {
   return (
     <div className='mt-5  flex flex-col  gap-5'>
-        <div className="">
+        <div className=" flex justify-between items-center p-5 ">
             <h2 className='text-xl font-bold px-3 text-[#172B4C] '>Department</h2>
         </div>
         <DepartmentTable/>

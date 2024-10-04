@@ -13,6 +13,7 @@ import { Separator } from "@/components/ui/separator";
 import SearchBox from '../../searchBox';
 import LinkAsButton from '../../LinkAsButton';
 import TablePagination from '../../TablePagination';
+import NewDepartment from './new-department';
 
 
 export interface IDepartmentTableProps {
@@ -34,6 +35,8 @@ export default function DepartmentTable ({}: IDepartmentTableProps) {
     <div className=" bg-white rounded-lg shadow-md w-full h-full p-3 flex flex-col gap-3">
       <div className=" flex justify-between items-center w-full">
         <SearchBox />
+        <NewDepartment/>
+
               </div>
       <div className="py-5">
         <Table>

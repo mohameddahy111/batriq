@@ -33,7 +33,7 @@ export const adminSidebar = [
         subList: [
           {
             title: "sidebar.subList.attendance_rule",
-            link: "/admin/attendance_rule"
+            link: "/attendance"
           },
           {
             title: "sidebar.subList.overtime",
