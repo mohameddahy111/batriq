@@ -42,7 +42,7 @@
     "yup": "^1.4.0"
   },
   "engines": {
-    "node": "20"
+    "node": "22.9.0"
 },
   "devDependencies": {
     "@types/node": "^20",
