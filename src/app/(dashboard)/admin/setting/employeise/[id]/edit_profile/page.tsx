@@ -335,7 +335,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
                 <Input
                   className="bg-white "
                   onChange={formik.handleChange}
-                  value={formik.values.Resume}
                   name={"Resume"}
                   type="file"
                   id="Resume"
@@ -350,7 +349,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
               </div>
               {formik.errors.name_En ? (
                 <p className="text-red-500 py-2 text-[12px]">
-                  {formik?.errors?.Resume}
                 </p>
               ) : null}
             </div>
@@ -362,7 +360,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
                 <Input
                   className="bg-white "
                   onChange={formik.handleChange}
-                  value={formik.values.Resume}
                   name={"Resume"}
                   type="file"
                   id="Resume"
@@ -377,7 +374,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
               </div>
               {formik.errors.name_En ? (
                 <p className="text-red-500 py-2 text-[12px]">
-                  {formik?.errors?.Resume}
                 </p>
               ) : null}
             </div>
@@ -391,7 +387,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
                 <Input
                   className="bg-white "
                   onChange={formik.handleChange}
-                  value={formik.values.Resume}
                   name={"Resume"}
                   type="file"
                   id="Resume"
@@ -406,7 +401,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
               </div>
               {formik.errors.name_En ? (
                 <p className="text-red-500 py-2 text-[12px]">
-                  {formik?.errors?.Resume}
                 </p>
               ) : null}
             </div>
@@ -418,7 +412,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
                 <Input
                   className="bg-white "
                   onChange={formik.handleChange}
-                  value={formik.values.Resume}
                   name={"Resume"}
                   type="file"
                   id="Resume"
@@ -433,7 +426,6 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
               </div>
               {formik.errors.name_En ? (
                 <p className="text-red-500 py-2 text-[12px]">
-                  {formik?.errors?.Resume}
                 </p>
               ) : null}
             </div>
