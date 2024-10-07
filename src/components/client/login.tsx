@@ -21,7 +21,7 @@ import { useState } from "react";
 
 export interface ILoginProps {}
 
-export default function Login(props: ILoginProps) {
+export default function Login({}: ILoginProps) {
   const t = useTranslations();
 
   const [remember, setRemember] = useState<boolean>(false);

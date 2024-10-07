@@ -1,7 +1,6 @@
 import * as React from "react";
-import { DarkSystem } from "./dark-system";
 import { LanguageList } from "./language-list";
-import { Bell, Mail, MenuIcon, MenuSquare } from "lucide-react";
+import { Bell, Mail } from "lucide-react";
 import Link from "next/link";
 import UserMenu from "./UserMenu";
 import SearchBox from "./searchBox";

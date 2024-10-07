@@ -29,7 +29,7 @@ export interface IEmployeeEditProfile {
 
 export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
   const t = useTranslations("EmployeeEditProfile");
-  const [employeeData, setEmployeeData] = React.useState<IEmployeeEditProfile>({
+  const [employeeData] = React.useState<IEmployeeEditProfile>({
     name_En: "Employee",
     name_Ar: "مواظف",
     secondary_Phone: "0123456789",
@@ -62,7 +62,7 @@ export default function EmployeeEditProfile({}: IEmployeeEditProfileProps) {
       position: employeeData.position,
       branch: employeeData.branch
     },
-    onSubmit: (values) => {}
+    onSubmit: () => {}
   });
   return (
     <div className="flex flex-col gap-5  justify-center mt-5 px-5">

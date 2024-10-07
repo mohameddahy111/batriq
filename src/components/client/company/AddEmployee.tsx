@@ -17,12 +17,13 @@ export interface IAddEmployeeProps {}
 
 export default function AddEmployee({}: IAddEmployeeProps) {
   const { employeeInputs } = Store();
+  console.log(employeeInputs)
   return (
     <div className="" >
       <PublicTabs list={AddEmployeeTabs}>
         <>
           <TabsContent className="bg-white " value="Employee_Info">
-            {employeeInputs.feildRequired.map((ele: any, i: number) => (
+            {employeeInputs.feildRequired.map((ele: typeof employeeInputs.feildRequired[0], i: number) => (
               <div className="" key={i}>
                 <EditInput data={ele} index={i} />
               </div>

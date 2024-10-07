@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState } from "react";
 
-const StoreData = createContext<any>(null);
+const StoreData = createContext<any>({});
 
 export const StoreDataProvider = ({
   children

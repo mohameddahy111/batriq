@@ -2,7 +2,6 @@
 
 import * as React from "react";
 
-import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,7 +9,7 @@ import {
   DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu";
 import { useLocale} from "next-intl";
-import { LanguageService } from "@/app/actions";
+import { LanguageService } from "../../app/actions";
 import { GlobeIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 

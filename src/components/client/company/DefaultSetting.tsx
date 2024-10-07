@@ -40,7 +40,7 @@ export default function DefaultSetting({}: IDefaultSettingProps) {
   }, [setting]);
   return (
     <div className=" flex flex-col gap-5">
-      <div className="">
+      <div className=""> 
         <h2 className=" text-sm font-semibold">Default Weekends </h2>
         <div className=" grid grid-cols-3 md:grid-cols-4 lg:grid-cols-7 items-center gap-4 py-3 ">
           {holidays.map((ele: any) => (

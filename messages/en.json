@@ -209,6 +209,57 @@
       "Duration":"Duration",
       "Action":"Action",
       "Hours":"Hours"
+    },
+    "newAttendance":{
+      "title":"Attendance Shifts Setup",
+      "Shift Details":{
+        "title":"Shift Details",
+        "Shift Name":"Shift Name",
+        "Shift Code":"Shift Code",
+        "Description":"Description",
+        "Dynamic_Weekend":"Set Dynamic Weekend",
+        "Select_changes":"Select weekend for each week if they changes",
+        "Week":"Week",
+        "Working_Hours":"Set Working Hours & Details",
+        "Shift Start":"Shift Start",
+        "Shift End":"Shift End",
+        "Working Days":"Working Days",
+        "Duration":"Duration",
+        "Overtime Rule":"Overtime Rule",
+        "Late Attendance Rule":"Late Attendance Rule",
+        "Flexible_Hours":"Enable Flexible Hours",
+      "Shift Duration":"Shift Duration",
+      "Shift Start From":"Shift Start From",
+      "Shift Start To":"Shift Start To"
+      }
+
+    }
+  },
+  "Payroll Area":{
+    "title":"Payroll Area",
+    "Table":{
+      "ID":"ID",
+      "Payroll Name":"Payroll Name",
+      "Payroll Name AR":"Payroll Name AR",
+      "Status":"Status",
+      "Action":"Action",
+      "Percentage":"Percentage"
+    },
+    "IAddNewPayroll":{
+      "title":"Add New Payroll",
+      "form":{
+        "title":"Payroll Setup",
+        "Payroll Code":"Payroll Code",
+        "Payroll Name":"Payroll Name",
+        "Payroll Name AR":"Payroll Name AR",
+        "Status":"Status",
+        "Percentage":"Percentage",
+        "Is It Addition Or Subscription ":"Is It Addition Or Subscription",
+        "Is it Fixed Or Variable":"Is it Fixed Or Variable",
+        "Percentage From Another Value":"Percentage From Another Value",
+        "Choose Item Code":"Choose Item Code",
+        "Link To Attendance":"Link To Attendance"
+      }
     }
   }
   

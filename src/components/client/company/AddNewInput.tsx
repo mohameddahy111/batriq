@@ -11,7 +11,6 @@ import {
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { Store } from "@/app/context/storeData";
-import { toast } from "sonner";
 import { useToast } from "@/hooks/use-toast";
 import { useFormik } from "formik";
 import * as yup from "yup";
@@ -37,9 +36,9 @@ export default function AddNewInput({}: IAddNewInputProps) {
     required: false,
     name: ""
   });
-  function AddNew(values: any) {
+  function AddNew(values: typeof employeeInputs.feildRequired) {
     const isExist = employeeInputs.feildRequired.find(
-      (ele: any) => ele.fieldName === values.fieldName
+      (ele: typeof values) => ele.fieldName === values.fieldName
     );
     if (isExist) {
       toast({

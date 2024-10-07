@@ -30,6 +30,11 @@ export default function AttendanceTable({  }: IAttendanceTableProps) {
     <div className=" bg-white rounded-lg shadow-md w-full h-full p-3 flex flex-col gap-3">
       <div className=" flex justify-between items-center w-full">
         <SearchBox />
+        <LinkAsButton  link={`/attendance/add_attendance`}>
+        <span>
+            Add new Attendance
+        </span>
+        </LinkAsButton>
       </div>
       <div className="py-5">
         <Table>
