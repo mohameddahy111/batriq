@@ -135,7 +135,7 @@ export default function AddAttendance({  }: IAddAttendanceProps) {
                 {t("Shift Details.Select_changes")}
               </h4>
               <div className=" py-5">
-                {[...Array(4).keys()].map(key =>
+                {[1,2,3,4].map(key =>
                   <div className=" flex flex-col gap-3 " key={key}>
                     <Label className="text-sm font-semibold  ps-2">
                       {t("Shift Details.Week")} {key + 1}
